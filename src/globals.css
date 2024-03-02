@@ -1,0 +1,114 @@
+.address-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button,
+.check-address-list-button {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover,
+.check-address-list-button:hover {
+  background-color: #0056b3;
+}
+
+.address-list-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.address-list {
+    list-style: none;
+    padding: 0;
+}
+  
+.address-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+  
+.address-item div {
+    margin-bottom: 5px;
+}
+  
+.address-buttons button {
+    margin-right: 5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.edit{
+    background-color: #12c421;
+}
+.edit:hover{
+    background-color: #089b14;
+}
+
+.delete{
+    background-color: #e70101;
+}
+.delete:hover{
+    background-color: #bc0505;
+}
+
+.save{
+    background-color: #21a8eb;
+}
+.save:hover{
+    background-color: #0c83bf;
+}
+.address-font{
+    padding: 8px;
+    font-size: 24px;
+}
+  
+.input-elements{
+    display: inline;
+}
+@media screen and (max-width: 768px) {
+    .address-list-container {
+        padding: 10px;
+    }
+
+    .address-item {
+        padding: 8px;
+    }
+
+    .address-buttons button {
+        font-size: 12px;
+    }
+}
+  
